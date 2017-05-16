@@ -54,14 +54,22 @@
 		58B861621ECAA9A300747EFC /* iPiggy */ = {
 			isa = PBXGroup;
 			children = (
-				58B861631ECAA9A300747EFC /* AppDelegate.swift */,
-				58B861651ECAA9A300747EFC /* ViewController.swift */,
+				58B861751ECAA9B500747EFC /* View Controllers */,
 				58B861671ECAA9A300747EFC /* Main.storyboard */,
 				58B8616A1ECAA9A300747EFC /* Assets.xcassets */,
 				58B8616C1ECAA9A300747EFC /* LaunchScreen.storyboard */,
 				58B8616F1ECAA9A300747EFC /* Info.plist */,
 			);
 			path = iPiggy;
+			sourceTree = "<group>";
+		};
+		58B861751ECAA9B500747EFC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58B861631ECAA9A300747EFC /* AppDelegate.swift */,
+				58B861651ECAA9A300747EFC /* ViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
