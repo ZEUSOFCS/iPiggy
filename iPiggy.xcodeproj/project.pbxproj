@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587252141ECD54B100314764 /* plus btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 587252131ECD54B100314764 /* plus btn.png */; };
+		587252161ECD566400314764 /* plus button.png in Resources */ = {isa = PBXBuildFile; fileRef = 587252151ECD566400314764 /* plus button.png */; };
+		587252181ECD589F00314764 /* Dev BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 587252171ECD589F00314764 /* Dev BG.png */; };
 		58B861641ECAA9A300747EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B861631ECAA9A300747EFC /* AppDelegate.swift */; };
 		58B861661ECAA9A300747EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B861651ECAA9A300747EFC /* ViewController.swift */; };
 		58B861691ECAA9A300747EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B861671ECAA9A300747EFC /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		587252131ECD54B100314764 /* plus btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus btn.png"; sourceTree = "<group>"; };
+		587252151ECD566400314764 /* plus button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus button.png"; sourceTree = "<group>"; };
+		587252171ECD589F00314764 /* Dev BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dev BG.png"; sourceTree = "<group>"; };
 		58B861601ECAA9A300747EFC /* iPiggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPiggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B861631ECAA9A300747EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B861651ECAA9A300747EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587252191ECD599100314764 /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				5872521A1ECD59BD00314764 /* Images */,
+			);
+			name = Sketch;
+			sourceTree = "<group>";
+		};
+		5872521A1ECD59BD00314764 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				587252131ECD54B100314764 /* plus btn.png */,
+				587252171ECD589F00314764 /* Dev BG.png */,
+				587252151ECD566400314764 /* plus button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		58B861571ECAA9A300747EFC = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +78,9 @@
 		58B861621ECAA9A300747EFC /* iPiggy */ = {
 			isa = PBXGroup;
 			children = (
-				58B861751ECAA9B500747EFC /* View Controllers */,
 				58B861671ECAA9A300747EFC /* Main.storyboard */,
+				58B861751ECAA9B500747EFC /* View Controllers */,
+				587252191ECD599100314764 /* Sketch */,
 				58B8616A1ECAA9A300747EFC /* Assets.xcassets */,
 				58B8616C1ECAA9A300747EFC /* LaunchScreen.storyboard */,
 				58B8616F1ECAA9A300747EFC /* Info.plist */,
@@ -104,7 +129,7 @@
 				TargetAttributes = {
 					58B8615F1ECAA9A300747EFC = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 4237GNQ997;
+						DevelopmentTeam = 865UFTYB86;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,6 +160,9 @@
 				58B8616E1ECAA9A300747EFC /* LaunchScreen.storyboard in Resources */,
 				58B8616B1ECAA9A300747EFC /* Assets.xcassets in Resources */,
 				58B861691ECAA9A300747EFC /* Main.storyboard in Resources */,
+				587252161ECD566400314764 /* plus button.png in Resources */,
+				587252141ECD54B100314764 /* plus btn.png in Resources */,
+				587252181ECD589F00314764 /* Dev BG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +297,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4237GNQ997;
+				DEVELOPMENT_TEAM = 865UFTYB86;
 				INFOPLIST_FILE = iPiggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeusofohio.iPiggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,8 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4237GNQ997;
+				DEVELOPMENT_TEAM = 865UFTYB86;
 				INFOPLIST_FILE = iPiggy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeusofohio.iPiggy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +340,7 @@
 				58B861741ECAA9A300747EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
